@@ -59,7 +59,7 @@ const oktaJwtVerifier = new OktaJwtVerifier({
 });
 ```
 
-**NOTA:** el valor de `{yourOktaDomain}` debe de ser algo como `dev-123456.okta`. Asegurese de no incluir M `-admin` o dos`.com` en el valor
+**NOTA:** el valor de `{yourOktaDomain}` debe de ser algo como `dev-123456.okta`. Asegurese de no incluir de más `-admin` o dos`.com` en el valor
 
 #### Configuracion Cliente
 

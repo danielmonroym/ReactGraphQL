@@ -46,7 +46,7 @@ npm start
 
 
 ### Configuración Okta
-Crear o ingresar a una cuenta Okta ((https://developer.okta.com/signup/) )  y navegar hacia  **Applications** > **Add Application**. Click en **Single-Page App**, click **Next**, y darle un nombre a nuestra aplicación. Click **Done**.
+Crear o ingresar a una cuenta Okta ((https://developer.okta.com/signup/) )  y navegar hacia  **Applications** > **Add Application**. Click en **Single-Page App**, click **Next**, darle un nombre a nuestra aplicación y cambiar todos los localhost:8080 por localkost:3000, también checkear los camos authorization code e implicit. Click **Done**. Click **Done**.
 
 #### Configuración GraphQL con Okta
 
@@ -55,7 +55,7 @@ Abrir `graphql-api/index.ts` y reemplazar `{yourOktadomain}` and `{yourClientId}
 ```ts
 const oktaJwtVerifier = new OktaJwtVerifier({
   clientId: '{yourClientId}',
-  issuer: 'https://{yourOktaDomain}/oauth2/default'
+  issuer: 'https://{yourOktaDomain}.com/oauth2/default'
 });
 ```
 

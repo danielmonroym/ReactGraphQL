@@ -11,7 +11,7 @@
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage, and secure users and roles in any application.
 
 
-## Getting Started
+## Para empezar
 
 Para instalar correctamente la aplicación siga estos pasos:
 

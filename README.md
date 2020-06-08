@@ -63,7 +63,7 @@ const oktaJwtVerifier = new OktaJwtVerifier({
 
 #### Configuracion Cliente
 
-Para el cliente, ingrese el `issuer` y `client_id` en `react-client/src/App.js` igual que en el paso pasado.
+Para el cliente, ingrese el `issuer` y `client_id` en `react-apolloGQ/src/App.js` igual que en el paso pasado.
 
 ```js
 class App extends Component {

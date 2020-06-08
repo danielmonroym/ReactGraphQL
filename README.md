@@ -76,7 +76,7 @@ class App extends Component {
                   onAuthRequired={onAuthRequired}>
           <Route path='/' exact={true} component={Home}/>
           <SecureRoute path='/points' component={Points}/>
-          <Route path='/login' render={() => <Login baseUrl='https://dev-669532.okta.com'/>}/>
+          <Route path='/login' render={() => <Login baseUrl='https://{yourOktaDomain}.com'/>}/>
           <Route path='/implicit/callback' component={ImplicitCallback}/>
         </Security>
       </Router>
